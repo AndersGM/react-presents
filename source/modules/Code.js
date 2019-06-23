@@ -128,29 +128,29 @@ const CodeMirrorTheme = styled.div`
   .CodeMirror-line > span > span::-moz-selection {
     background: rgba(255, 255, 255, 0.10);
   }
-  span.cm-comment { color: #75715e; }
-  span.cm-string,
-  span.cm-string-2 { color: #f1fa8c; }
-  span.cm-number { color: #bd93f9; }
-  span.cm-variable { color: #ddd; }
-  span.cm-variable-2 { color: white; }
-  span.cm-def { color: #a6e22e; }
-  span.cm-keyword { color: #f92672; }
-  span.cm-operator { color: #f92672; }
-  span.cm-keyword { color: #f92672; }
-  span.cm-atom { color: #bd93f9; }
-  span.cm-meta { color: #f8f8f2; }
-  span.cm-tag { color: #f92672; }
-  span.cm-attribute { color: #ddd; }
-  span.cm-qualifier { color: #a6e22e; }
-  span.cm-property { color: #66d9ef; }
-  span.cm-builtin { color: #a6e22e; }
-  span.cm-variable-3 { color: #a6e22e; }
-
+  span.cm-comment { color: #3F7F5F; }
+  span.cm-string { color:#2A00FF; }
+  span.cm-string-2 { color: #f50; }
+  span.cm-number { color: #164; }
+  span.cm-variable { color: black; }
+  span.cm-variable-2 { color: #0000C0; }
+  span.cm-def { color: #00f; }
+  span.cm-operator { color: black; }
+  span.cm-keyword { color: #7F0055; }
+  span.cm-atom { color: #219; }
+  span.cm-meta { color: #FF1717; }
+  span.cm-tag { color: #170; }
+  span.cm-attribute { color: #00c; }
+  span.cm-qualifier { color: #555; }
+  span.cm-property { color: black; }
+  span.cm-builtin { color: #30a; }
+  span.cm-variable-3 { color: #0000C0; }
+  span.cm-link { color: #219; }
+  span.cm-error { color:#f00; }
   .CodeMirror-activeline-background { background: rgba(255,255,255,0.1); }
   .CodeMirror-matchingbracket { text-decoration: underline; color: white !important; }
 
-  span.cm-bracket { color: #900; }
+  span.cm-bracket { color: #cc7; }
 
   span.dim {
     opacity: 0.5;
