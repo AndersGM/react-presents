@@ -4,11 +4,11 @@ import CodeMirror from 'react-codemirror'
 import styled from 'styled-components'
 
 // By default, highlight JSX
-import 'codemirror/mode/jsx/jsx'
+import 'codemirror/mode/javascript/javascript'
 
 const DEFAULT_CODE_MIRROR_OPTIONS = {
   lineNumbers: false,
-  mode: 'jsx',
+  mode: 'text/typescript',
   readOnly: true,
   theme: 'reactpresents'
 }
@@ -94,8 +94,6 @@ const CodeMirrorTheme = styled.div`
   height: auto;
   border-radius: 0.5rem;
   padding: 1rem;
-  background-color: #222 !important;
-  color: #f8f8f2 !important;
   font-size: 12px;
   border: none;
 }
@@ -110,7 +108,7 @@ const CodeMirrorTheme = styled.div`
   }
 
   .CodeMirror-gutters {
-    background-color: #222 !important;
+    background-color: #fff !important;
     color: #f8f8f2 !important;
     font-size: 12px;
     border: none;
@@ -148,9 +146,9 @@ const CodeMirrorTheme = styled.div`
   span.cm-link { color: #219; }
   span.cm-error { color:#f00; }
   .CodeMirror-activeline-background { background: rgba(255,255,255,0.1); }
-  .CodeMirror-matchingbracket { text-decoration: underline; color: white !important; }
+  .CodeMirror-matchingbracket { text-decoration: underline; color: black !important; }
 
-  span.cm-bracket { color: #cc7; }
+  span.cm-bracket { color: black; }
 
   span.dim {
     opacity: 0.5;
